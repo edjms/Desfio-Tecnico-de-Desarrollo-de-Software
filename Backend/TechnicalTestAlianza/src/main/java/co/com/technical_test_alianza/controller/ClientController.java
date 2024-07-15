@@ -9,12 +9,15 @@ import java.util.List;
 @RequestMapping("/api/client")
 public interface ClientController {
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/create")
     public Client SaveClient (@RequestBody Client client);
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/list")
     public List<Client> FindAllClient();
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/list/{id}")
     public Client FindByIdClient(@PathVariable String id);
 

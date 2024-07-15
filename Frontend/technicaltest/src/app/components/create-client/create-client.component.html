@@ -1,0 +1,32 @@
+<div class="create-user-container">
+    <h2>Create New Cliente</h2>
+    <form (ngSubmit)="createUser()">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" [(ngModel)]="client.name" name="name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" [(ngModel)]="client.email" name="email" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" [(ngModel)]="client.phone" name="phone" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" [(ngModel)]="client.startDate" name="startDate" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" [(ngModel)]="client.endDate" name="endDate" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="sharedKey">Shared Key:</label>
+        <input type="text" id="sharedKey" [(ngModel)]="client.sharedKey" name="sharedKey" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Create</button>
+      <button type="button" class="btn btn-secondary" (click)="closeCreateUserComponent()">Close</button>
+    </form>
+  </div>
+  
