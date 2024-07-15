@@ -1,0 +1,16 @@
+info	2024-07-15 14:09:29	Guardando cliente
+info	2024-07-15 14:09:29	Cliente Guardado Exitosamente
+info	2024-07-15 15:32:55	Guardando cliente
+info	2024-07-15 15:32:55	Cliente Guardado Exitosamente
+info	2024-07-15 15:40:40	Guardando cliente
+info	2024-07-15 15:40:40	Cliente Guardado Exitosamente
+info	2024-07-15 15:46:32	Consultando Clientes
+info	2024-07-15 15:46:33	Clientes Extraidos Exitosamente
+info	2024-07-15 15:46:42	Consultando Cliente por Id: luis24
+info	2024-07-15 15:46:42	Consulta de Cliente exitosa 
+info	2024-07-15 15:47:07	Guardando cliente
+info	2024-07-15 15:47:07	Cliente Guardado Exitosamente
+info	2024-07-15 15:47:07	Consultando Clientes
+info	2024-07-15 15:47:07	Clientes Extraidos Exitosamente
+info	2024-07-15 15:56:05	Guardando cliente
+info	2024-07-15 15:56:05	Cliente Guardado Exitosamente

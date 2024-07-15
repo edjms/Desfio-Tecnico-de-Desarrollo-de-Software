@@ -25,7 +25,7 @@ public class EventLog {
     }
 
     public  static void  writeToFile(String content) {
-        String name = "./target/logs/log_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + ".txt";
+        String name = "./logs/log_" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + ".txt";
         try (FileWriter writer = new FileWriter(name, true)) {
             writer.write(content + "\n");
             System.out.println("Successfully wrote to the file.");
